@@ -22,8 +22,8 @@
     "dropdown.background": "#3a3d4c",
     "dropdown.border": "#282a36",
     "dropdown.foreground": "#f8f8f2",
-    "input.background": "#3a3d4c",
-    "input.border": "#282a36",
+    "input.background": "#2f3240",
+    "input.border": "#5d5e66",
     "input.foreground": "#f8f8f2",
     "input.placeholderForeground": "#a3a5ba",
     "inputOption.activeBackground": "#44475a",
@@ -216,7 +216,45 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#6272a4"
+        "foreground": "#98afff"
+      }
+    },
+    {
+      "name": "Doc comments and tags",
+      "scope": [
+        "comment.block.documentation",
+        "comment.block.documentation keyword",
+        "comment.block.documentation storage",
+        "comment.block.documentation punctuation.definition",
+        "comment.block.documentation punctuation.definition.tag",
+        "comment.block.documentation punctuation.definition.keyword"
+      ],
+      "settings": {
+        "foreground": "#98afff"
+      }
+    },
+    {
+      "name": "Doc tags and values",
+      "scope": [
+        "comment.block.documentation entity.name",
+        "comment.block.documentation storage.type",
+        "comment.block.documentation string"
+      ],
+      "settings": {
+        "foreground": "#ffb86c",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Todo in comments",
+      "scope": [
+        "comment.keyword.todo",
+        "comment.keyword.fixme",
+        "comment.keyword.note",
+        "comment.keyword.xxx"
+      ],
+      "settings": {
+        "foreground": "#e998ff"
       }
     },
     {
@@ -280,6 +318,52 @@
       }
     },
     {
+      "name": "Braces",
+      "scope": [
+        "punctuation.section.braces",
+        "punctuation.section.braces.begin",
+        "punctuation.section.braces.end",
+        "punctuation.section.block.begin",
+        "punctuation.section.block.end",
+        "punctuation.section.curly",
+        "meta.brace.curly"
+      ],
+      "settings": {
+        "foreground": "#737fff"
+      }
+    },
+    {
+      "name": "Brackets",
+      "scope": [
+        "punctuation.section.brackets",
+        "punctuation.section.brackets.begin",
+        "punctuation.section.brackets.end",
+        "punctuation.section.square.begin",
+        "punctuation.section.square.end",
+        "punctuation.section.square",
+        "meta.brace.square"
+      ],
+      "settings": {
+        "foreground": "#36ffac"
+      }
+    },
+    {
+      "name": "Parentheses",
+      "scope": [
+        "punctuation.section.parens",
+        "punctuation.section.parens.begin",
+        "punctuation.section.parens.end",
+        "punctuation.section.group.begin",
+        "punctuation.section.group.end",
+        "punctuation.section.parameters.begin",
+        "punctuation.section.parameters.end",
+        "meta.brace.round"
+      ],
+      "settings": {
+        "foreground": "#fff906"
+      }
+    },
+    {
       "name": "Functions and methods",
       "scope": [
         "entity.name.function",
@@ -306,27 +390,49 @@
       }
     },
     {
+      "name": "Annotations",
+      "scope": [
+        "meta.annotation",
+        "punctuation.definition.annotation",
+        "entity.name.type.annotation"
+      ],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
       "name": "Variables and parameters",
       "scope": [
         "variable",
         "variable.other",
-        "variable.parameter",
         "meta.definition.variable"
       ],
       "settings": {
-        "foreground": "#f8f8f2"
+        "foreground": "#b9bcd1"
       }
     },
     {
-      "name": "Parameters and properties",
+      "name": "Parameters",
       "scope": [
         "variable.parameter.function",
         "variable.parameter.method",
-        "variable.other.property",
-        "variable.other.member"
+        "variable.parameter"
       ],
       "settings": {
-        "foreground": "#b9bcd1"
+        "foreground": "#b9bcd1",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Properties and members",
+      "scope": [
+        "variable.other.property",
+        "variable.other.member",
+        "variable.other.readwrite",
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "foreground": "#ffb86c"
       }
     },
     {
@@ -475,7 +581,7 @@
     }
   ],
   "semanticTokenColors": {
-    "namespace": "#8be9fd",
+    "namespace": "#bd93f9",
     "type": "#8be9fd",
     "typeParameter": "#bd93f9",
     "class": "#8be9fd",
@@ -485,14 +591,17 @@
     "function": "#50fa7b",
     "method": "#50fa7b",
     "property": "#ffb86c",
-    "variable": "#f8f8f2",
-    "parameter": "#b9bcd1",
+    "variable": "#b9bcd1",
+    "parameter": {
+      "foreground": "#b9bcd1",
+      "fontStyle": "italic"
+    },
     "enumMember": "#bd93f9",
     "keyword": "#ff79c6",
     "string": "#f1fa8c",
     "number": "#bd93f9",
     "comment": {
-      "foreground": "#6272a4",
+      "foreground": "#98afff",
       "fontStyle": "italic"
     }
   }
