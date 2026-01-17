@@ -1,0 +1,21 @@
+{
+  "name": "vscode-dracula-colorful",
+  "displayName": "Dracula Colorful",
+  "description": "Dracula Colorful theme for Visual Studio Code",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.108.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dracula Colorful",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dracula Colorful-color-theme.json"
+      }
+    ]
+  }
+}
