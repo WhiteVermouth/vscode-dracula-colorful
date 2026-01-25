@@ -1,14 +1,47 @@
 {
   "name": "vscode-dracula-colorful",
   "displayName": "Dracula Colorful",
-  "description": "Dracula Colorful theme for Visual Studio Code",
+  "description": "A vibrant variant of Dracula theme with bold accents, colorful brackets, and balanced contrast for comfortable long coding sessions",
   "version": "1.0.0",
+  "publisher": "nszihan",
+  "author": {
+    "name": "Zihan Ma"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.108.1"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "dracula",
+    "dark theme",
+    "colorful",
+    "theme",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhiteVermouth/vscode-dracula-colorful"
+  },
+  "bugs": {
+    "url": "https://github.com/WhiteVermouth/vscode-dracula-colorful/issues"
+  },
+  "homepage": "https://github.com/WhiteVermouth/vscode-dracula-colorful#readme",
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "publish:patch": "vsce publish patch",
+    "publish:minor": "vsce publish minor",
+    "publish:major": "vsce publish major",
+    "vscode:prepublish": "echo 'Preparing to publish...'",
+    "install-extension": "code --install-extension vscode-dracula-colorful-*.vsix"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  },
   "contributes": {
     "themes": [
       {
