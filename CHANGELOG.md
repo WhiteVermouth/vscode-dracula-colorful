@@ -6,8 +6,3 @@ All notable changes to the "dracula-colorful" extension will be documented in th
 
 ### Added
 - Initial release of Dracula Colorful theme
-- Dark theme with vibrant, colorful syntax highlighting
-- Enhanced bracket colorization (braces, brackets, parentheses)
-- Semantic highlighting support
-- Complete UI theming for VS Code interface
-- Terminal color customization
