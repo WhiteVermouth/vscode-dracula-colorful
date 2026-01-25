@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+*.vsix
+out/
+dist/
+
+# Testing
+.vscode-test/
+coverage/
+
+# Lock files (choose one based on your package manager)
+# Uncomment the ones you want to ignore
+# pnpm-lock.yaml
+# package-lock.json
+# yarn.lock
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
