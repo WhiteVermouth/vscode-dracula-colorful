@@ -7,7 +7,10 @@
   "author": {
     "name": "Zihan Ma"
   },
-  "license": "MIT",
+  "sponsor": {
+    "url": "https://buymeacoffee.com/nszihan"
+  },
+  "license": "Apache-2.0",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.60.0"
@@ -35,12 +38,7 @@
     "publish": "vsce publish",
     "publish:patch": "vsce publish patch",
     "publish:minor": "vsce publish minor",
-    "publish:major": "vsce publish major",
-    "vscode:prepublish": "echo 'Preparing to publish...'",
-    "install-extension": "code --install-extension vscode-dracula-colorful-*.vsix"
-  },
-  "devDependencies": {
-    "@vscode/vsce": "^2.22.0"
+    "publish:major": "vsce publish major"
   },
   "contributes": {
     "themes": [
