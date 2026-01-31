@@ -35,10 +35,18 @@
   "homepage": "https://github.com/WhiteVermouth/vscode-dracula-colorful#readme",
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish",
-    "publish:patch": "vsce publish patch",
-    "publish:minor": "vsce publish minor",
-    "publish:major": "vsce publish major"
+    "vscode:publish": "vsce publish",
+    "vscode:publish:patch": "vsce publish patch",
+    "vscode:publish:minor": "vsce publish minor",
+    "vscode:publish:major": "vsce publish major",
+    "ovsx:publish": "ovsx publish",
+    "ovsx:publish:patch": "ovsx publish --patch",
+    "ovsx:publish:minor": "ovsx publish --minor",
+    "ovsx:publish:major": "ovsx publish --major",
+    "publish": "vsce publish && ovsx publish",
+    "publish:patch": "vsce publish patch && ovsx publish --patch",
+    "publish:minor": "vsce publish minor && ovsx publish --minor",
+    "publish:major": "vsce publish major && ovsx publish --major"
   },
   "contributes": {
     "themes": [
