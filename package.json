@@ -49,6 +49,11 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Dracula Colorful-color-theme.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "[Dracula Colorful]": {
+        "editor.semanticHighlighting.enabled": true
+      }
+    }
   }
 }

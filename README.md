@@ -14,16 +14,10 @@ Dracula Colorful is yet another variant of the Dracula theme: bold accents, soft
 - Run `Preferences: Color Theme`.
 - Choose `Dracula Colorful`.
 
-## Optional tweaks
+## Features
 
-These settings can make the theme feel closer to the intended look:
-
-```json
-{
-  "editor.semanticHighlighting.enabled": true,
-  "workbench.colorTheme": "Dracula Colorful"
-}
-```
+- **Semantic highlighting enabled by default** - The theme automatically enables semantic highlighting for richer syntax coloring based on code meaning, not just syntax
+- Bold accents and colorful brackets for better code structure visibility
 
 ## Feedback
 
