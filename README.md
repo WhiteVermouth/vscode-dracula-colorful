@@ -1,5 +1,10 @@
 # Dracula Colorful for Visual Studio Code
 
+[![VS Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/nszihan.vscode-dracula-colorful?label=VS%20Marketplace)](https://marketplace.visualstudio.com/items?itemName=nszihan.vscode-dracula-colorful)
+[![VS Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/nszihan.vscode-dracula-colorful)](https://marketplace.visualstudio.com/items?itemName=nszihan.vscode-dracula-colorful)
+[![Build](https://github.com/WhiteVermouth/vscode-dracula-colorful/actions/workflows/build.yml/badge.svg)](https://github.com/WhiteVermouth/vscode-dracula-colorful/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/WhiteVermouth/vscode-dracula-colorful)](https://github.com/WhiteVermouth/vscode-dracula-colorful/blob/main/LICENSE)
+
 Dracula Colorful is yet another variant of the Dracula theme: bold accents, soft contrast, and a balanced palette for long coding sessions.
 
 ## Install
