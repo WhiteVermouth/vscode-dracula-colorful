@@ -33,6 +33,10 @@
     "url": "https://github.com/WhiteVermouth/vscode-dracula-colorful/issues"
   },
   "homepage": "https://github.com/WhiteVermouth/vscode-dracula-colorful#readme",
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.1",
+    "ovsx": "^0.10.1"
+  },
   "scripts": {
     "package": "vsce package",
     "vscode:publish": "vsce publish",
