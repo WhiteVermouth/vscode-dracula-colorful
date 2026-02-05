@@ -107,7 +107,7 @@
     "editorGutter.addedBackground": "#50fa7b",
     "editorGutter.modifiedBackground": "#74b4c1",
     "editorGutter.deletedBackground": "#cd4644",
-    "editorOverviewRuler.border": "#44475a",
+    "editorOverviewRuler.border": "#282a36",
     "editorOverviewRuler.addedForeground": "#50fa7b",
     "editorOverviewRuler.modifiedForeground": "#74b4c1",
     "editorOverviewRuler.deletedForeground": "#cd4644",
