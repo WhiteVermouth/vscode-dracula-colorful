@@ -8,19 +8,20 @@
     "errorForeground": "#ff5555",
     "selection.background": "#44475a",
     "icon.foreground": "#f8f8f2",
+    "extensionIcon.verifiedForeground": "#bd93f9",
     "textBlockQuote.background": "#3a3d4c",
     "textBlockQuote.border": "#6272a4",
-    "textLink.activeForeground": "#ff79c6",
-    "textLink.foreground": "#8be9fd",
+    "textLink.activeForeground": "#bd93f9",
+    "textLink.foreground": "#ff79c6",
     "textPreformat.foreground": "#50fa7b",
     "textSeparator.foreground": "#5d5e66",
     "button.background": "#6272a4",
     "button.foreground": "#f8f8f2",
-    "button.hoverBackground": "#515872",
+    "button.hoverBackground": "#bd93f9",
     "button.border": "#00000000",
     "button.secondaryBackground": "#3a3d4c",
     "button.secondaryForeground": "#f8f8f2",
-    "button.secondaryHoverBackground": "#44475a",
+    "button.secondaryHoverBackground": "#bd93f9",
     "checkbox.background": "#3a3d4c",
     "checkbox.border": "#44475a",
     "dropdown.background": "#3a3d4c",
@@ -41,7 +42,7 @@
     "inputValidation.infoForeground": "#f8f8f2",
     "scrollbar.shadow": "#00000000",
     "scrollbarSlider.background": "#44475a60",
-    "scrollbarSlider.hoverBackground": "#6272a4aa",
+    "scrollbarSlider.hoverBackground": "#bd93f9",
     "scrollbarSlider.activeBackground": "#6272a4dd",
     "badge.background": "#bd93f9",
     "badge.foreground": "#282a36",
@@ -121,7 +122,7 @@
     "editorCodeLens.foreground": "#6272a4",
     "editorInlayHint.background": "#242632",
     "editorInlayHint.foreground": "#b9bcd1",
-    "editorLink.activeForeground": "#ff79c6",
+    "editorLink.activeForeground": "#bd93f9",
     "editorLightBulb.foreground": "#f1fa8c",
     "editorLightBulbAutoFix.foreground": "#50fa7b",
     "editorGroup.border": "#44475a",
@@ -165,7 +166,7 @@
     "notifications.background": "#414450",
     "notifications.border": "#5d5e66",
     "notifications.foreground": "#f8f8f2",
-    "notificationLink.foreground": "#8be9fd",
+    "notificationLink.foreground": "#ff79c6",
     "notificationsErrorIcon.foreground": "#ff5555",
     "notificationsWarningIcon.foreground": "#f1fa8c",
     "notificationsInfoIcon.foreground": "#8be9fd",
@@ -354,7 +355,7 @@
         "meta.brace.curly"
       ],
       "settings": {
-        "foreground": "#737fff"
+        "foreground": "#737FFFFF"
       }
     },
     {
@@ -369,7 +370,7 @@
         "meta.brace.square"
       ],
       "settings": {
-        "foreground": "#36ffac"
+        "foreground": "#36FFACFF"
       }
     },
     {
@@ -385,7 +386,7 @@
         "meta.brace.round"
       ],
       "settings": {
-        "foreground": "#fff906"
+        "foreground": "#FFF906FF"
       }
     },
     {
@@ -590,7 +591,7 @@
         "string.other.link"
       ],
       "settings": {
-        "foreground": "#8be9fd",
+        "foreground": "#ff79c6",
         "fontStyle": "underline"
       }
     },
