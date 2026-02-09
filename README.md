@@ -6,6 +6,8 @@
 
 Dracula Colorful is yet another variant of the Dracula theme: bold accents, soft contrast, and a balanced palette for long coding sessions.
 
+![Screenshot](screenshot.png)
+
 ## Install
 
 - Open the Extensions view in Visual Studio Code.
