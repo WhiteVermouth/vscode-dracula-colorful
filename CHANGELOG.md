@@ -2,6 +2,12 @@
 
 All notable changes to the "dracula-colorful" extension will be documented in this file.
 
+## [1.1.2] - 2026-02-16
+
+### Changed
+
+- Use brighter Dracula purple for selection highlight, word highlight, and word highlight strong backgrounds to improve visibility
+
 ## [1.1.1] - 2026-02-09
 
 ### Changed
