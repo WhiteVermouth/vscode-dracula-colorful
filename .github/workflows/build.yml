@@ -30,6 +30,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Validate Theme
+        run: pnpm validate:theme
+
       - name: Package Extension
         run: pnpm package
 
@@ -55,6 +58,9 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
+
+      - name: Validate Theme
+        run: pnpm validate:theme
 
       - name: Package Extension
         run: pnpm package

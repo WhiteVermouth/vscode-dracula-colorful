@@ -35,10 +35,12 @@
   "homepage": "https://github.com/WhiteVermouth/vscode-dracula-colorful#readme",
   "devDependencies": {
     "@vscode/vsce": "^3.2.1",
+    "jsonc-parser": "^3.3.1",
     "ovsx": "^0.10.1"
   },
   "scripts": {
-    "package": "vsce package",
+    "validate:theme": "node scripts/validate-theme.mjs",
+    "package": "pnpm validate:theme && vsce package",
     "vscode:publish": "vsce publish",
     "vscode:publish:patch": "vsce publish patch",
     "vscode:publish:minor": "vsce publish minor",
