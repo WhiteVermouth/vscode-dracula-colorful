@@ -84,7 +84,7 @@
     "editor.foreground": "#f8f8f2",
     "editorLineNumber.foreground": "#a3a5ba",
     "editorLineNumber.activeForeground": "#ff79c6",
-    "editorCursor.foreground": "#cccccc",
+    "editorCursor.foreground": "#f8f8f2",
     "editor.selectionBackground": "#44475a",
     "editor.inactiveSelectionBackground": "#4e5a8270",
     "editor.lineHighlightBackground": "#1e1f2980",
@@ -106,11 +106,11 @@
     "editorBracketMatch.border": "#747a9d",
     "editorGutter.background": "#282a36",
     "editorGutter.addedBackground": "#50fa7b",
-    "editorGutter.modifiedBackground": "#74b4c1",
+    "editorGutter.modifiedBackground": "#ffb86c",
     "editorGutter.deletedBackground": "#cd4644",
     "editorOverviewRuler.border": "#282a36",
     "editorOverviewRuler.addedForeground": "#50fa7b",
-    "editorOverviewRuler.modifiedForeground": "#74b4c1",
+    "editorOverviewRuler.modifiedForeground": "#ffb86c",
     "editorOverviewRuler.deletedForeground": "#cd4644",
     "editorOverviewRuler.errorForeground": "#ff5555",
     "editorOverviewRuler.warningForeground": "#f1fa8c",
@@ -215,7 +215,7 @@
     "gitDecoration.modifiedResourceForeground": "#8be9fd",
     "gitDecoration.deletedResourceForeground": "#ff5555",
     "gitDecoration.renamedResourceForeground": "#ff79c6",
-    "gitDecoration.untrackedResourceForeground": "#ff5555",
+    "gitDecoration.untrackedResourceForeground": "#50fa7b",
     "terminal.background": "#282a36",
     "terminal.foreground": "#f8f8f2",
     "terminalCursor.foreground": "#f8f8f2",
@@ -355,7 +355,7 @@
         "meta.brace.curly"
       ],
       "settings": {
-        "foreground": "#737FFFFF"
+        "foreground": "#737fff"
       }
     },
     {
@@ -370,7 +370,7 @@
         "meta.brace.square"
       ],
       "settings": {
-        "foreground": "#36FFACFF"
+        "foreground": "#36ffac"
       }
     },
     {
@@ -386,7 +386,7 @@
         "meta.brace.round"
       ],
       "settings": {
-        "foreground": "#FFF906FF"
+        "foreground": "#fff906"
       }
     },
     {
