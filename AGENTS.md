@@ -10,7 +10,7 @@ This repository is a single VS Code theme extension.
 - `CHANGELOG.md`, `README.md`, `icon.png`, `screenshot.png`: release notes and marketplace assets.
 
 ## Build, Test, and Development Commands
-Use `pnpm` and Node.js 20 (matches CI).
+Use `pnpm` and Node.js 22 (matches CI).
 
 - `pnpm install`: install dependencies.
 - `pnpm validate:theme`: validate theme JSON (required before PRs/releases).
