@@ -44,3 +44,12 @@ pnpm package
   - linked issue(s) when applicable,
   - before/after screenshot(s) for visible color changes,
   - `CHANGELOG.md` updates for release-facing changes.
+
+## CHANGELOG Authoring
+The `CHANGELOG.md` is read by end users browsing the marketplace, so entries must be written from their perspective.
+
+- Describe **what the user will see or notice** — new features, visible improvements, bug fixes.
+- **Do not** name upstream projects, parent themes, or other tools as the source of inspiration (e.g., no "ported from...", "matches JetBrains...", "aligned with...").
+- **Do not** include technical implementation details: no token names (`editor.background`), hex codes, file paths, internal palette terms, refactor notes, or build/CI mechanics.
+- Prefer concrete user-facing language: "Active tab now has a purple top indicator" over "Added `tab.activeBorderTop: #bd93f9`".
+- If a change has no user-visible effect, it generally does not belong in `CHANGELOG.md`.
