@@ -2,6 +2,23 @@
 
 All notable changes to the "dracula-colorful" extension will be documented in this file.
 
+## [2.0.0] - 2026-05-27
+
+### Changed
+
+- Unified, calmer workbench: activity bar, side bar, title bar, status bar, and breadcrumb now share the editor's background for a seamless look
+- Clearer list and menu selections: active rows stand out from hovered rows in the Explorer, Search results, command palette, and autocomplete
+- More distinctive buttons: primary buttons get a soft purple outline so the default action is easier to spot; secondary buttons read as quieter
+- Active editor tab now sports a subtle purple indicator on top, making the focused file easier to find at a glance
+- Search matches highlight in pink for stronger visibility against the editor background
+- Friendlier panel headers and section dividers with consistent contrast across the UI
+
+### Added
+
+- Distinct colors for ignored files, merge conflicts, and staged changes in the Source Control view
+- Hover feedback for status bar items
+- Colored borders on validation messages (error, warning, info) for quicker recognition
+
 ## [1.1.3] - 2026-03-01
 
 ### Fixed
