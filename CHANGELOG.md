@@ -2,6 +2,12 @@
 
 All notable changes to the "dracula-colorful" extension will be documented in this file.
 
+## [2.1.1] - 2026-08-03
+
+### Fixed
+
+- Text inside tags no longer inherits the tag's pink color in JSX and TSX files — plain text content now uses the normal foreground color
+
 ## [2.1.0] - 2026-08-03
 
 ### Changed
