@@ -2,6 +2,21 @@
 
 All notable changes to the "dracula-colorful" extension will be documented in this file.
 
+## [2.1.0] - 2026-08-03
+
+### Changed
+
+- Refreshed workbench contrast: the side bar, bottom panel, terminal, and window chrome now use a darker shade that frames the editor, so panels stay clearly separated — including in VS Code's new floating-panel UI preview
+- Editor tabs redesigned: a darker tab strip, dimmed inactive tab labels, and an active tab that blends into the editor with a pink top indicator; hovering an inactive tab previews its active look
+- The active view icon in the activity bar now gets a purple highlight
+- Count badges (search results, source control, notifications) are now green for quicker recognition
+- Context menus and the command palette are slightly darker, with a lighter input field that stands out
+- Scrollbars carry a soft purple tint that turns solid purple on hover and while dragging
+- Error, warning, and info underlines use more distinct colors — crimson, orange, and cyan — so severities are easier to tell apart at a glance
+- Find matches highlight in green, with other occurrences in purple; the word under the cursor gets a solid purple highlight
+- Calmer version-control marks in the gutter with softer green and blue tones
+- Folded code regions now show a subtle shaded background
+
 ## [2.0.0] - 2026-05-27
 
 ### Changed
