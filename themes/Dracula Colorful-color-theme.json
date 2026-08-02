@@ -488,7 +488,7 @@
     },
     {
       "name": "Tags",
-      "scope": ["entity.name.tag", "meta.tag"],
+      "scope": ["entity.name.tag"],
       "settings": {
         "foreground": "#ff79c6"
       }
