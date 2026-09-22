@@ -2,6 +2,13 @@
 
 All notable changes to the "dracula-colorful" extension will be documented in this file.
 
+## [2.2.0] - 2026-09-23
+
+### Changed
+
+- The side bar now shares the editor's background, so the Explorer, Search, Source Control, and Chat views feel like one continuous surface with your code
+- In VS Code's new floating-panel UI preview, the side bar and activity bar form a single card that matches the editor, framed by a softer outline against the darker window background
+
 ## [2.1.1] - 2026-08-03
 
 ### Fixed
